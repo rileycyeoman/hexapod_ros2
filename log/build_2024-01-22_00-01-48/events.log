@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000114] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000133] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000228] (-) JobUnselected: {'identifier': 'myworkcell_core'}
+[0.000257] (-) JobUnselected: {'identifier': 'six_leg_controller'}
+[0.000267] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000279] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000354] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.063225] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.063882] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.063922] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/riley/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/riley/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riley'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/riley/ros2_ws/install/tutorial_interfaces/lib:/home/riley/ros2_ws/install/fake_ar_publisher/lib:/home/riley/ros2_ws/src/install/fake_ar_publisher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/riley'), ('OLDPWD', '/home/riley/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/riley/ros2_ws/install:/home/riley/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'riley'), ('_', '/home/riley/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'riley'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/riley/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2workspace:@/tmp/.ICE-unix/3589,unix/ROS2workspace:/tmp/.ICE-unix/3589'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8a444d41_0f54_4f54_b970_f71e1cfaa1cd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MJFTH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/riley/ros2_ws/install/tutorial_interfaces:/home/riley/ros2_ws/src/install/cpp_srvcli:/home/riley/ros2_ws/install/my_package:/home/riley/ros2_ws/install/cpp_srvcli:/home/riley/ros2_ws/install/six_leg_controller:/home/riley/ros2_ws/install/myworkcell_core:/home/riley/ros2_ws/install/fake_ar_publisher:/home/riley/ros2_ws/install/cpp_pubsub:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/src/install/myworkcell_core:/home/riley/ros2_ws/src/install/my_package:/home/riley/ros2_ws/src/install/fake_ar_publisher:/home/riley/ros2_ws/src/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riley/ros2_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages:/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/home/riley/ros2_ws/src/install/six_leg_controller/lib/python3.10/site-packages:/home/riley/ros2_ws/src/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/riley/ros2_ws/install/tutorial_interfaces:/home/riley/ros2_ws/src/install/cpp_srvcli:/home/riley/ros2_ws/install/my_package:/home/riley/ros2_ws/install/cpp_srvcli:/home/riley/ros2_ws/install/myworkcell_core:/home/riley/ros2_ws/install/fake_ar_publisher:/home/riley/ros2_ws/install/cpp_pubsub:/home/riley/ros2_ws/src/install/myworkcell_core:/home/riley/ros2_ws/src/install/my_package:/home/riley/ros2_ws/src/install/fake_ar_publisher:/home/riley/ros2_ws/src/install/cpp_pubsub:/home/riley/ros2_ws/install/six_leg_controller:/home/riley/ros2_ws/src/install/six_leg_controller:/opt/ros/humble')]), 'shell': False}
+[0.085456] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099232] (-) TimerEvent: {}
+[0.194476] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.200070] (-) TimerEvent: {}
+[0.214979] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.216546] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.220469] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.228073] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.239314] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.280813] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.281883] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.301462] (-) TimerEvent: {}
+[0.386667] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.402563] (-) TimerEvent: {}
+[0.486602] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/riley/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.505642] (-) TimerEvent: {}
+[0.606748] (-) TimerEvent: {}
+[0.609683] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.624265] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.625724] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/riley/ros2_ws/build/cpp_pubsub\n'}
+[0.648856] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.649471] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.663968] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.664126] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.707454] (-) TimerEvent: {}
+[0.808857] (-) TimerEvent: {}
+[0.909197] (-) TimerEvent: {}
+[1.009948] (-) TimerEvent: {}
+[1.110816] (-) TimerEvent: {}
+[1.211841] (-) TimerEvent: {}
+[1.313139] (-) TimerEvent: {}
+[1.414254] (-) TimerEvent: {}
+[1.515002] (-) TimerEvent: {}
+[1.615951] (-) TimerEvent: {}
+[1.716422] (-) TimerEvent: {}
+[1.817782] (-) TimerEvent: {}
+[1.919072] (-) TimerEvent: {}
+[2.020593] (-) TimerEvent: {}
+[2.122274] (-) TimerEvent: {}
+[2.223745] (-) TimerEvent: {}
+[2.325580] (-) TimerEvent: {}
+[2.426611] (-) TimerEvent: {}
+[2.528511] (-) TimerEvent: {}
+[2.629504] (-) TimerEvent: {}
+[2.730816] (-) TimerEvent: {}
+[2.832066] (-) TimerEvent: {}
+[2.933809] (-) TimerEvent: {}
+[3.035914] (-) TimerEvent: {}
+[3.137210] (-) TimerEvent: {}
+[3.238926] (-) TimerEvent: {}
+[3.340219] (-) TimerEvent: {}
+[3.440556] (-) TimerEvent: {}
+[3.542152] (-) TimerEvent: {}
+[3.643453] (-) TimerEvent: {}
+[3.745294] (-) TimerEvent: {}
+[3.846637] (-) TimerEvent: {}
+[3.948878] (-) TimerEvent: {}
+[4.050612] (-) TimerEvent: {}
+[4.152260] (-) TimerEvent: {}
+[4.253462] (-) TimerEvent: {}
+[4.284787] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.353733] (-) TimerEvent: {}
+[4.454995] (-) TimerEvent: {}
+[4.508231] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.556787] (-) TimerEvent: {}
+[4.658616] (-) TimerEvent: {}
+[4.760831] (-) TimerEvent: {}
+[4.863034] (-) TimerEvent: {}
+[4.965004] (-) TimerEvent: {}
+[5.066027] (-) TimerEvent: {}
+[5.166614] (-) TimerEvent: {}
+[5.267801] (-) TimerEvent: {}
+[5.370176] (-) TimerEvent: {}
+[5.471575] (-) TimerEvent: {}
+[5.572361] (-) TimerEvent: {}
+[5.673431] (-) TimerEvent: {}
+[5.773978] (-) TimerEvent: {}
+[5.875348] (-) TimerEvent: {}
+[5.976485] (-) TimerEvent: {}
+[6.077677] (-) TimerEvent: {}
+[6.179161] (-) TimerEvent: {}
+[6.279564] (-) TimerEvent: {}
+[6.381360] (-) TimerEvent: {}
+[6.482669] (-) TimerEvent: {}
+[6.583370] (-) TimerEvent: {}
+[6.684510] (-) TimerEvent: {}
+[6.786274] (-) TimerEvent: {}
+[6.887616] (-) TimerEvent: {}
+[6.988324] (-) TimerEvent: {}
+[7.088941] (-) TimerEvent: {}
+[7.189857] (-) TimerEvent: {}
+[7.290640] (-) TimerEvent: {}
+[7.392140] (-) TimerEvent: {}
+[7.494300] (-) TimerEvent: {}
+[7.595267] (-) TimerEvent: {}
+[7.651450] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.696119] (-) TimerEvent: {}
+[7.798140] (-) TimerEvent: {}
+[7.899182] (-) TimerEvent: {}
+[7.958787] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[7.969238] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.995032] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[7.999400] (-) TimerEvent: {}
+[8.004109] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/riley/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/riley/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riley'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/riley/ros2_ws/install/tutorial_interfaces/lib:/home/riley/ros2_ws/install/fake_ar_publisher/lib:/home/riley/ros2_ws/src/install/fake_ar_publisher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/riley'), ('OLDPWD', '/home/riley/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/riley/ros2_ws/install:/home/riley/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'riley'), ('_', '/home/riley/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'riley'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/riley/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2workspace:@/tmp/.ICE-unix/3589,unix/ROS2workspace:/tmp/.ICE-unix/3589'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8a444d41_0f54_4f54_b970_f71e1cfaa1cd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MJFTH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/riley/ros2_ws/install/tutorial_interfaces:/home/riley/ros2_ws/src/install/cpp_srvcli:/home/riley/ros2_ws/install/my_package:/home/riley/ros2_ws/install/cpp_srvcli:/home/riley/ros2_ws/install/six_leg_controller:/home/riley/ros2_ws/install/myworkcell_core:/home/riley/ros2_ws/install/fake_ar_publisher:/home/riley/ros2_ws/install/cpp_pubsub:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/src/install/myworkcell_core:/home/riley/ros2_ws/src/install/my_package:/home/riley/ros2_ws/src/install/fake_ar_publisher:/home/riley/ros2_ws/src/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riley/ros2_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages:/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/home/riley/ros2_ws/src/install/six_leg_controller/lib/python3.10/site-packages:/home/riley/ros2_ws/src/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/riley/ros2_ws/install/tutorial_interfaces:/home/riley/ros2_ws/src/install/cpp_srvcli:/home/riley/ros2_ws/install/my_package:/home/riley/ros2_ws/install/cpp_srvcli:/home/riley/ros2_ws/install/myworkcell_core:/home/riley/ros2_ws/install/fake_ar_publisher:/home/riley/ros2_ws/install/cpp_pubsub:/home/riley/ros2_ws/src/install/myworkcell_core:/home/riley/ros2_ws/src/install/my_package:/home/riley/ros2_ws/src/install/fake_ar_publisher:/home/riley/ros2_ws/src/install/cpp_pubsub:/home/riley/ros2_ws/install/six_leg_controller:/home/riley/ros2_ws/src/install/six_leg_controller:/opt/ros/humble')]), 'shell': False}
+[8.011088] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.013580] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[8.014836] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[8.016126] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[8.019575] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[8.019703] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[8.019749] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[8.020064] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[8.020152] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[8.020277] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[8.020422] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[8.020509] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[8.020596] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[8.020709] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[8.020933] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[8.021039] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[8.021105] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[8.021165] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[8.021224] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[8.021283] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[8.022658] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[8.100961] (-) TimerEvent: {}
+[8.201640] (-) TimerEvent: {}
+[8.222346] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[8.223101] (-) EventReactorShutdown: {}

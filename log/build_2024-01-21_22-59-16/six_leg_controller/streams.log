@@ -1,0 +1,23 @@
+[0.655s] Invoking command in '/home/riley/ros2_ws/src/six_leg_controller': PYTHONPATH=/home/riley/ros2_ws/build/six_leg_controller/prefix_override:/home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_leg_controller build --build-base /home/riley/ros2_ws/build/six_leg_controller/build install --record /home/riley/ros2_ws/build/six_leg_controller/install.log --single-version-externally-managed
+[0.852s] running egg_info
+[0.853s] writing ../../build/six_leg_controller/six_leg_controller.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../build/six_leg_controller/six_leg_controller.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../build/six_leg_controller/six_leg_controller.egg-info/entry_points.txt
+[0.855s] writing requirements to ../../build/six_leg_controller/six_leg_controller.egg-info/requires.txt
+[0.856s] writing top-level names to ../../build/six_leg_controller/six_leg_controller.egg-info/top_level.txt
+[0.858s] reading manifest file '../../build/six_leg_controller/six_leg_controller.egg-info/SOURCES.txt'
+[0.859s] writing manifest file '../../build/six_leg_controller/six_leg_controller.egg-info/SOURCES.txt'
+[0.859s] running build
+[0.859s] running build_py
+[0.860s] copying six_leg_controller/node.py -> /home/riley/ros2_ws/build/six_leg_controller/build/lib/six_leg_controller
+[0.860s] running install
+[0.861s] running install_lib
+[0.862s] copying /home/riley/ros2_ws/build/six_leg_controller/build/lib/six_leg_controller/node.py -> /home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages/six_leg_controller
+[0.863s] byte-compiling /home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages/six_leg_controller/node.py to node.cpython-310.pyc
+[0.863s] running install_data
+[0.864s] running install_egg_info
+[0.865s] removing '/home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages/six_leg_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.866s] Copying ../../build/six_leg_controller/six_leg_controller.egg-info to /home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages/six_leg_controller-0.0.0-py3.10.egg-info
+[0.867s] running install_scripts
+[0.881s] writing list of installed files to '/home/riley/ros2_ws/build/six_leg_controller/install.log'
+[0.933s] Invoked command in '/home/riley/ros2_ws/src/six_leg_controller' returned '0': PYTHONPATH=/home/riley/ros2_ws/build/six_leg_controller/prefix_override:/home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_leg_controller build --build-base /home/riley/ros2_ws/build/six_leg_controller/build install --record /home/riley/ros2_ws/build/six_leg_controller/install.log --single-version-externally-managed

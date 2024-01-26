@@ -1,0 +1,16 @@
+/home/riley/ros2_ws/src/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/riley/ros2_ws/src/install/cpp_srvcli/share/cpp_srvcli/package.xml

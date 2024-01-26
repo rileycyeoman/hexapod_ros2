@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target vision_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable vision_node[0m
+[100%] Built target vision_node
+-- Install configuration: ""
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/lib/myworkcell_core/vision_node
+-- Set runtime path of "/home/riley/ros2_ws/install/myworkcell_core/lib/myworkcell_core/vision_node" to ""
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/package_run_dependencies/myworkcell_core
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/parent_prefix_path/myworkcell_core
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.sh
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.dsv
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.sh
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.dsv
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.bash
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.sh
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.zsh
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.dsv
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.dsv
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/packages/myworkcell_core
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig.cmake
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig-version.cmake
+-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.xml

@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/riley/ros2_ws/install/fake_ar_publisher/include/**",
+        "/home/riley/ros2_ws/src/install/fake_ar_publisher/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/riley/ros2_ws/src/cpp_pubsub/include/**",
+        "/home/riley/ros2_ws/src/cpp_srvcli/include/**",
+        "/home/riley/ros2_ws/src/my_package/include/**",
+        "/home/riley/ros2_ws/src/myworkcell_core/include/**",
+        "/home/riley/ros2_ws/src/tutorial_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

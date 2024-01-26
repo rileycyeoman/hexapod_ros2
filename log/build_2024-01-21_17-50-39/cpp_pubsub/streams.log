@@ -1,0 +1,27 @@
+[0.066s] Invoking command in '/home/riley/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/install/six_leg_controller:/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.119s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.120s] [ 75%] Built target listener
+[3.203s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.328s] [100%] Built target talker
+[3.337s] Invoked command in '/home/riley/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/install/six_leg_controller:/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[3.366s] Invoking command in '/home/riley/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/install/six_leg_controller:/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/cpp_pubsub
+[3.373s] -- Install configuration: ""
+[3.374s] -- Installing: /home/riley/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[3.375s] -- Set runtime path of "/home/riley/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[3.377s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[3.377s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[3.378s] -- Installing: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[3.378s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[3.379s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[3.379s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[3.379s] -- Up-to-date: /home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[3.381s] Invoked command in '/home/riley/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/install/six_leg_controller:/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/cpp_pubsub

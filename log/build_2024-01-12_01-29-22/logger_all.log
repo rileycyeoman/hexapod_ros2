@@ -1,0 +1,322 @@
+[0.918s] DEBUG:colcon:Command line arguments: ['/home/riley/.local/bin/colcon', 'build']
+[0.918s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5161142440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f51615baec0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f51615baec0>>)
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.977s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.978s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/riley/ros2_ws'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.992s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'ignore_ament_install'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extensions ['colcon_pkg']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'colcon_pkg'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extensions ['colcon_meta']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'colcon_meta'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extensions ['ros']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/fake_ar_publisher) by extension 'ros'
+[0.994s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fake_ar_publisher' with type 'ros.ament_cmake' and name 'fake_ar_publisher'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/myworkcell_core) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/myworkcell_core) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/myworkcell_core) by extension 'ignore_ament_install'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/myworkcell_core) by extensions ['colcon_pkg']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/myworkcell_core) by extension 'colcon_pkg'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/myworkcell_core) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/myworkcell_core) by extension 'colcon_meta'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/myworkcell_core) by extensions ['ros']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/myworkcell_core) by extension 'ros'
+[0.995s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myworkcell_core' with type 'ros.ament_cmake' and name 'myworkcell_core'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_leg_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_leg_controller) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_leg_controller) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_leg_controller) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_leg_controller) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_leg_controller) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_leg_controller) by extension 'colcon_meta'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_leg_controller) by extensions ['ros']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/six_leg_controller) by extension 'ros'
+[0.996s] DEBUG:colcon.colcon_core.package_identification:Package 'src/six_leg_controller' with type 'ros.ament_python' and name 'six_leg_controller'
+[0.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.063s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[1.063s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[1.063s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.063s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[1.063s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[1.063s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[1.063s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[1.063s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[1.063s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.063s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/riley/ros2_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/riley/ros2_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/riley/ros2_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_args' from command line to 'None'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_target' from command line to 'None'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'fake_ar_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.074s] DEBUG:colcon.colcon_core.verb:Building package 'fake_ar_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/riley/ros2_ws/build/fake_ar_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/riley/ros2_ws/install/fake_ar_publisher', 'merge_install': False, 'path': '/home/riley/ros2_ws/src/fake_ar_publisher', 'symlink_install': False, 'test_result_base': None}
+[1.085s] Level 5:colcon.colcon_core.verb:set package 'six_leg_controller' build argument 'cmake_args' from command line to 'None'
+[1.085s] Level 5:colcon.colcon_core.verb:set package 'six_leg_controller' build argument 'cmake_target' from command line to 'None'
+[1.085s] Level 5:colcon.colcon_core.verb:set package 'six_leg_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.085s] Level 5:colcon.colcon_core.verb:set package 'six_leg_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.085s] Level 5:colcon.colcon_core.verb:set package 'six_leg_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.085s] Level 5:colcon.colcon_core.verb:set package 'six_leg_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.085s] Level 5:colcon.colcon_core.verb:set package 'six_leg_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.085s] Level 5:colcon.colcon_core.verb:set package 'six_leg_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.085s] Level 5:colcon.colcon_core.verb:set package 'six_leg_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.085s] DEBUG:colcon.colcon_core.verb:Building package 'six_leg_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/riley/ros2_ws/build/six_leg_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/riley/ros2_ws/install/six_leg_controller', 'merge_install': False, 'path': '/home/riley/ros2_ws/src/six_leg_controller', 'symlink_install': False, 'test_result_base': None}
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'myworkcell_core' build argument 'cmake_args' from command line to 'None'
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'myworkcell_core' build argument 'cmake_target' from command line to 'None'
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'myworkcell_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'myworkcell_core' build argument 'cmake_clean_cache' from command line to 'False'
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'myworkcell_core' build argument 'cmake_clean_first' from command line to 'False'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'myworkcell_core' build argument 'cmake_force_configure' from command line to 'False'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'myworkcell_core' build argument 'ament_cmake_args' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'myworkcell_core' build argument 'catkin_cmake_args' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'myworkcell_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.097s] DEBUG:colcon.colcon_core.verb:Building package 'myworkcell_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/riley/ros2_ws/build/myworkcell_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/riley/ros2_ws/install/myworkcell_core', 'merge_install': False, 'path': '/home/riley/ros2_ws/src/myworkcell_core', 'symlink_install': False, 'test_result_base': None}
+[1.109s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.124s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/riley/ros2_ws/src/fake_ar_publisher' with build type 'ament_cmake'
+[1.124s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/riley/ros2_ws/src/fake_ar_publisher'
+[1.145s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.178s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/riley/ros2_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[1.179s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/riley/ros2_ws/src/cpp_pubsub'
+[1.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.219s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/riley/ros2_ws/src/six_leg_controller' with build type 'ament_python'
+[1.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_leg_controller', 'ament_prefix_path')
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/hook/ament_prefix_path.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/hook/ament_prefix_path.dsv'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/hook/ament_prefix_path.sh'
+[1.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/ros2_ws/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/fake_ar_publisher -- -j8 -l8
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[1.562s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/riley/ros2_ws/src/six_leg_controller'
+[1.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/ros2_ws/src/six_leg_controller': PYTHONPATH=/home/riley/ros2_ws/build/six_leg_controller/prefix_override:/home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_leg_controller build --build-base /home/riley/ros2_ws/build/six_leg_controller/build install --record /home/riley/ros2_ws/build/six_leg_controller/install.log --single-version-externally-managed
+[2.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/ros2_ws/src/six_leg_controller' returned '0': PYTHONPATH=/home/riley/ros2_ws/build/six_leg_controller/prefix_override:/home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/six_leg_controller build --build-base /home/riley/ros2_ws/build/six_leg_controller/build install --record /home/riley/ros2_ws/build/six_leg_controller/install.log --single-version-externally-managed
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/six_leg_controller' for CMake module files
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/six_leg_controller' for CMake config files
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/six_leg_controller/lib'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/six_leg_controller/bin'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/six_leg_controller/lib/pkgconfig/six_leg_controller.pc'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/six_leg_controller/lib/python3.10/site-packages'
+[2.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('six_leg_controller', 'pythonpath')
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/hook/pythonpath.ps1'
+[2.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/hook/pythonpath.dsv'
+[2.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/hook/pythonpath.sh'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/six_leg_controller/bin'
+[2.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(six_leg_controller)
+[2.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/package.ps1'
+[2.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/package.dsv'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/package.sh'
+[2.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/package.bash'
+[2.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/six_leg_controller/share/six_leg_controller/package.zsh'
+[2.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/ros2_ws/install/six_leg_controller/share/colcon-core/packages/six_leg_controller)
+[6.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/ros2_ws/build/fake_ar_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/fake_ar_publisher -- -j8 -l8
+[6.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/ros2_ws/build/fake_ar_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/fake_ar_publisher
+[7.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_ar_publisher)
+[7.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/ros2_ws/build/fake_ar_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/fake_ar_publisher
+[7.019s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher' for CMake module files
+[7.020s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher' for CMake config files
+[7.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_ar_publisher', 'cmake_prefix_path')
+[7.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.ps1'
+[7.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.dsv'
+[7.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.sh'
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/lib'
+[7.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_ar_publisher', 'ld_library_path_lib')
+[7.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.ps1'
+[7.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.dsv'
+[7.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.sh'
+[7.052s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/bin'
+[7.052s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/lib/pkgconfig/fake_ar_publisher.pc'
+[7.053s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/lib/python3.10/site-packages'
+[7.053s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/bin'
+[7.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.ps1'
+[7.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.dsv'
+[7.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.sh'
+[7.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.bash'
+[7.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.zsh'
+[7.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/ros2_ws/install/fake_ar_publisher/share/colcon-core/packages/fake_ar_publisher)
+[7.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fake_ar_publisher)
+[7.144s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher' for CMake module files
+[7.144s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher' for CMake config files
+[7.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_ar_publisher', 'cmake_prefix_path')
+[7.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.ps1'
+[7.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.dsv'
+[7.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/cmake_prefix_path.sh'
+[7.156s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/lib'
+[7.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('fake_ar_publisher', 'ld_library_path_lib')
+[7.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.ps1'
+[7.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.dsv'
+[7.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/hook/ld_library_path_lib.sh'
+[7.168s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/bin'
+[7.168s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/lib/pkgconfig/fake_ar_publisher.pc'
+[7.169s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/lib/python3.10/site-packages'
+[7.169s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/fake_ar_publisher/bin'
+[7.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.ps1'
+[7.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.dsv'
+[7.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.sh'
+[7.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.bash'
+[7.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.zsh'
+[7.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/ros2_ws/install/fake_ar_publisher/share/colcon-core/packages/fake_ar_publisher)
+[7.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/riley/ros2_ws/src/myworkcell_core' with build type 'ament_cmake'
+[7.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/riley/ros2_ws/src/myworkcell_core'
+[7.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/ros2_ws/build/myworkcell_core': AMENT_PREFIX_PATH=/home/riley/ros2_ws/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/ros2_ws/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/riley/ros2_ws/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/riley/ros2_ws/build/myworkcell_core -- -j8 -l8
+[9.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[9.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/cpp_pubsub
+[9.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[9.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/cpp_pubsub
+[9.648s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub' for CMake module files
+[9.648s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub' for CMake config files
+[9.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[9.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[9.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[9.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[9.662s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/lib'
+[9.662s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/bin'
+[9.662s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[9.663s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[9.663s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/bin'
+[9.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[9.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[9.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[9.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[9.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[9.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[9.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub' for CMake module files
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub' for CMake config files
+[9.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[9.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[9.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[9.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[9.739s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/lib'
+[9.739s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/bin'
+[9.739s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[9.739s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[9.739s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/cpp_pubsub/bin'
+[9.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[9.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[9.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[9.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[9.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[9.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[9.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/ros2_ws/build/myworkcell_core' returned '0': AMENT_PREFIX_PATH=/home/riley/ros2_ws/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/ros2_ws/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/riley/ros2_ws/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/riley/ros2_ws/build/myworkcell_core -- -j8 -l8
+[10.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/ros2_ws/build/myworkcell_core': AMENT_PREFIX_PATH=/home/riley/ros2_ws/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/ros2_ws/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/riley/ros2_ws/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/riley/ros2_ws/build/myworkcell_core
+[10.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myworkcell_core)
+[10.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/ros2_ws/build/myworkcell_core' returned '0': AMENT_PREFIX_PATH=/home/riley/ros2_ws/install/fake_ar_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/ros2_ws/install/fake_ar_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/riley/ros2_ws/install/fake_ar_publisher/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/riley/ros2_ws/build/myworkcell_core
+[10.046s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core' for CMake module files
+[10.046s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core' for CMake config files
+[10.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('myworkcell_core', 'cmake_prefix_path')
+[10.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/hook/cmake_prefix_path.ps1'
+[10.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/hook/cmake_prefix_path.dsv'
+[10.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/hook/cmake_prefix_path.sh'
+[10.061s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/lib'
+[10.061s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/bin'
+[10.061s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/lib/pkgconfig/myworkcell_core.pc'
+[10.061s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/lib/python3.10/site-packages'
+[10.061s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/bin'
+[10.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.ps1'
+[10.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.dsv'
+[10.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.sh'
+[10.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.bash'
+[10.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.zsh'
+[10.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/ros2_ws/install/myworkcell_core/share/colcon-core/packages/myworkcell_core)
+[10.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myworkcell_core)
+[10.131s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core' for CMake module files
+[10.131s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core' for CMake config files
+[10.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('myworkcell_core', 'cmake_prefix_path')
+[10.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/hook/cmake_prefix_path.ps1'
+[10.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/hook/cmake_prefix_path.dsv'
+[10.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/hook/cmake_prefix_path.sh'
+[10.146s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/lib'
+[10.146s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/bin'
+[10.147s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/lib/pkgconfig/myworkcell_core.pc'
+[10.147s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/lib/python3.10/site-packages'
+[10.147s] Level 1:colcon.colcon_core.environment:checking '/home/riley/ros2_ws/install/myworkcell_core/bin'
+[10.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.ps1'
+[10.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.dsv'
+[10.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.sh'
+[10.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.bash'
+[10.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.zsh'
+[10.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/ros2_ws/install/myworkcell_core/share/colcon-core/packages/myworkcell_core)
+[10.165s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.165s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.165s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.165s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.186s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.186s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.186s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.213s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.225s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/riley/ros2_ws/install/local_setup.ps1'
+[10.227s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/riley/ros2_ws/install/_local_setup_util_ps1.py'
+[10.228s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/riley/ros2_ws/install/setup.ps1'
+[10.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/riley/ros2_ws/install/local_setup.sh'
+[10.244s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/riley/ros2_ws/install/_local_setup_util_sh.py'
+[10.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/riley/ros2_ws/install/setup.sh'
+[10.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/riley/ros2_ws/install/local_setup.bash'
+[10.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/riley/ros2_ws/install/setup.bash'
+[10.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/riley/ros2_ws/install/local_setup.zsh'
+[10.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/riley/ros2_ws/install/setup.zsh'

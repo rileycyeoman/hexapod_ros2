@@ -1,0 +1,4 @@
+source;share/fake_ar_publisher/local_setup.bash
+source;share/fake_ar_publisher/local_setup.dsv
+source;share/fake_ar_publisher/local_setup.sh
+source;share/fake_ar_publisher/local_setup.zsh

@@ -1,0 +1,16 @@
+/home/riley/ros2_ws/src/install/myworkcell_core/lib/myworkcell_core/vision_node
+/home/riley/ros2_ws/src/install/myworkcell_core/share/ament_index/resource_index/package_run_dependencies/myworkcell_core
+/home/riley/ros2_ws/src/install/myworkcell_core/share/ament_index/resource_index/parent_prefix_path/myworkcell_core
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.sh
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.dsv
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/environment/path.sh
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/environment/path.dsv
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/local_setup.bash
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/local_setup.sh
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/local_setup.zsh
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/local_setup.dsv
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/package.dsv
+/home/riley/ros2_ws/src/install/myworkcell_core/share/ament_index/resource_index/packages/myworkcell_core
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig.cmake
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig-version.cmake
+/home/riley/ros2_ws/src/install/myworkcell_core/share/myworkcell_core/package.xml

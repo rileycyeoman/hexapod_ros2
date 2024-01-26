@@ -1,0 +1,422 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (fake_ar_publisher) JobQueued: {'identifier': 'fake_ar_publisher', 'dependencies': OrderedDict()}
+[0.000147] (myworkcell_core) JobQueued: {'identifier': 'myworkcell_core', 'dependencies': OrderedDict([('fake_ar_publisher', '/home/riley/ros2_ws/install/fake_ar_publisher')])}
+[0.000165] (fake_ar_publisher) JobStarted: {'identifier': 'fake_ar_publisher'}
+[0.043632] (fake_ar_publisher) JobProgress: {'identifier': 'fake_ar_publisher', 'progress': 'cmake'}
+[0.043688] (fake_ar_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/riley/ros2_ws/src/fake_ar_publisher', '-DCMAKE_INSTALL_PREFIX=/home/riley/ros2_ws/install/fake_ar_publisher'], 'cwd': '/home/riley/ros2_ws/build/fake_ar_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riley'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/riley'), ('OLDPWD', '/home/riley'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'riley'), ('_', '/home/riley/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'riley'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/riley/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2workspace:@/tmp/.ICE-unix/1785,unix/ROS2workspace:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64c64ad0_6fd6_4373_85ac_ba1dab182899'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UFOTD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riley/ros2_ws/build/fake_ar_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099472] (-) TimerEvent: {}
+[0.147281] (fake_ar_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200151] (-) TimerEvent: {}
+[0.220599] (fake_ar_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.231104] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300606] (-) TimerEvent: {}
+[0.362502] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.366983] (fake_ar_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.369151] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.370285] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.374304] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401153] (-) TimerEvent: {}
+[0.488631] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.493420] (fake_ar_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.493605] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.493960] (fake_ar_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.500691] (fake_ar_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501906] (-) TimerEvent: {}
+[0.603236] (-) TimerEvent: {}
+[0.664313] (fake_ar_publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.704345] (-) TimerEvent: {}
+[0.752959] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.802189] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.804917] (-) TimerEvent: {}
+[0.807307] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.817182] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.832894] (fake_ar_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.853914] (fake_ar_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.905549] (-) TimerEvent: {}
+[0.920907] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.924405] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.005748] (-) TimerEvent: {}
+[1.012021] (fake_ar_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.034360] (fake_ar_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.069834] (fake_ar_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.082057] (fake_ar_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.105873] (-) TimerEvent: {}
+[1.147167] (fake_ar_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.148345] (fake_ar_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.206406] (-) TimerEvent: {}
+[1.257413] (fake_ar_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.258929] (fake_ar_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.307622] (-) TimerEvent: {}
+[1.392757] (fake_ar_publisher) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.408775] (-) TimerEvent: {}
+[1.435295] (fake_ar_publisher) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.509925] (-) TimerEvent: {}
+[1.597381] (fake_ar_publisher) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.610996] (-) TimerEvent: {}
+[1.712319] (-) TimerEvent: {}
+[1.804972] (fake_ar_publisher) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.813185] (-) TimerEvent: {}
+[1.913808] (-) TimerEvent: {}
+[2.015614] (-) TimerEvent: {}
+[2.100314] (fake_ar_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.116076] (-) TimerEvent: {}
+[2.209107] (fake_ar_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.216881] (-) TimerEvent: {}
+[2.225142] (fake_ar_publisher) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.227463] (fake_ar_publisher) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.248580] (fake_ar_publisher) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.248742] (fake_ar_publisher) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.248791] (fake_ar_publisher) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.248839] (fake_ar_publisher) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.263563] (fake_ar_publisher) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.307083] (fake_ar_publisher) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[2.307240] (fake_ar_publisher) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[2.307282] (fake_ar_publisher) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[2.307318] (fake_ar_publisher) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.307353] (fake_ar_publisher) StderrLine: {'line': b'  CMakeLists.txt:38 (rosidl_target_interfaces)\n'}
+[2.307388] (fake_ar_publisher) StderrLine: {'line': b'\n'}
+[2.307423] (fake_ar_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[2.309287] (fake_ar_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.317028] (-) TimerEvent: {}
+[2.319767] (fake_ar_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.349528] (fake_ar_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[2.351669] (fake_ar_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/riley/ros2_ws/build/fake_ar_publisher\n'}
+[2.360127] (fake_ar_publisher) CommandEnded: {'returncode': 0}
+[2.360663] (fake_ar_publisher) JobProgress: {'identifier': 'fake_ar_publisher', 'progress': 'build'}
+[2.361907] (fake_ar_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/riley/ros2_ws/build/fake_ar_publisher', '--', '-j8', '-l8'], 'cwd': '/home/riley/ros2_ws/build/fake_ar_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riley'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/riley'), ('OLDPWD', '/home/riley'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'riley'), ('_', '/home/riley/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'riley'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/riley/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2workspace:@/tmp/.ICE-unix/1785,unix/ROS2workspace:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64c64ad0_6fd6_4373_85ac_ba1dab182899'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UFOTD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riley/ros2_ws/build/fake_ar_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.393667] (fake_ar_publisher) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.400724] (fake_ar_publisher) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.414313] (fake_ar_publisher) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_fake_ar_publisher\n'}
+[2.417215] (-) TimerEvent: {}
+[2.517989] (-) TimerEvent: {}
+[2.596227] (fake_ar_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[2.596862] (fake_ar_publisher) StdoutLine: {'line': b'creating fake_ar_publisher.egg-info\n'}
+[2.597002] (fake_ar_publisher) StdoutLine: {'line': b'writing fake_ar_publisher.egg-info/PKG-INFO\n'}
+[2.597136] (fake_ar_publisher) StdoutLine: {'line': b'writing dependency_links to fake_ar_publisher.egg-info/dependency_links.txt\n'}
+[2.597239] (fake_ar_publisher) StdoutLine: {'line': b'writing top-level names to fake_ar_publisher.egg-info/top_level.txt\n'}
+[2.597369] (fake_ar_publisher) StdoutLine: {'line': b"writing manifest file 'fake_ar_publisher.egg-info/SOURCES.txt'\n"}
+[2.600276] (fake_ar_publisher) StdoutLine: {'line': b'[  6%] Built target fake_ar_publisher__cpp\n'}
+[2.600445] (fake_ar_publisher) StdoutLine: {'line': b"reading manifest file 'fake_ar_publisher.egg-info/SOURCES.txt'\n"}
+[2.600672] (fake_ar_publisher) StdoutLine: {'line': b"writing manifest file 'fake_ar_publisher.egg-info/SOURCES.txt'\n"}
+[2.608226] (fake_ar_publisher) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.608412] (fake_ar_publisher) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.608471] (fake_ar_publisher) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.614064] (fake_ar_publisher) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_generator_c.dir/rosidl_generator_c/fake_ar_publisher/msg/detail/ar_marker__functions.c.o\x1b[0m\n'}
+[2.618592] (-) TimerEvent: {}
+[2.625241] (fake_ar_publisher) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_build_fake_ar_publisher_egg\n'}
+[2.674550] (fake_ar_publisher) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libfake_ar_publisher__rosidl_generator_c.so\x1b[0m\n'}
+[2.713172] (fake_ar_publisher) StdoutLine: {'line': b'[ 21%] Built target fake_ar_publisher__rosidl_generator_c\n'}
+[2.718704] (-) TimerEvent: {}
+[2.721981] (fake_ar_publisher) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.722177] (fake_ar_publisher) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.722230] (fake_ar_publisher) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.784651] (fake_ar_publisher) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fake_ar_publisher/msg/ar_marker__type_support.cpp.o\x1b[0m\n'}
+[2.803504] (fake_ar_publisher) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fake_ar_publisher/msg/detail/dds_fastrtps/ar_marker__type_support.cpp.o\x1b[0m\n'}
+[2.803688] (fake_ar_publisher) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fake_ar_publisher/msg/detail/ar_marker__type_support.cpp.o\x1b[0m\n'}
+[2.818786] (-) TimerEvent: {}
+[2.912900] (fake_ar_publisher) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/fake_ar_publisher/msg/ar_marker__type_support.cpp.o\x1b[0m\n'}
+[2.919133] (-) TimerEvent: {}
+[2.920591] (fake_ar_publisher) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fake_ar_publisher/msg/detail/ar_marker__type_support.c.o\x1b[0m\n'}
+[2.927679] (fake_ar_publisher) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fake_ar_publisher/msg/detail/ar_marker__type_support_c.cpp.o\x1b[0m\n'}
+[2.939636] (fake_ar_publisher) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.968959] (fake_ar_publisher) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libfake_ar_publisher__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.020030] (-) TimerEvent: {}
+[3.028696] (fake_ar_publisher) StdoutLine: {'line': b'[ 54%] Built target fake_ar_publisher__rosidl_typesupport_c\n'}
+[3.041184] (fake_ar_publisher) StdoutLine: {'line': b'[ 54%] Built target fake_ar_publisher__rosidl_typesupport_introspection_c\n'}
+[3.122363] (-) TimerEvent: {}
+[3.140235] (fake_ar_publisher) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.174410] (fake_ar_publisher) StdoutLine: {'line': b'[ 57%] Built target fake_ar_publisher__rosidl_typesupport_cpp\n'}
+[3.222492] (-) TimerEvent: {}
+[3.249376] (fake_ar_publisher) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.249585] (fake_ar_publisher) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.306288] (fake_ar_publisher) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libfake_ar_publisher__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.315685] (fake_ar_publisher) StdoutLine: {'line': b'[ 66%] Built target fake_ar_publisher__rosidl_typesupport_introspection_cpp\n'}
+[3.317381] (fake_ar_publisher) StdoutLine: {'line': b'[ 66%] Built target fake_ar_publisher__rosidl_typesupport_fastrtps_cpp\n'}
+[3.323039] (-) TimerEvent: {}
+[3.361723] (fake_ar_publisher) StdoutLine: {'line': b'[ 66%] Built target fake_ar_publisher__rosidl_typesupport_fastrtps_c\n'}
+[3.376578] (fake_ar_publisher) StdoutLine: {'line': b'[ 66%] Built target fake_ar_publisher\n'}
+[3.392030] (fake_ar_publisher) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/fake_ar_publisher_node.dir/src/fake_ar_publisher.cpp.o\x1b[0m\n'}
+[3.392183] (fake_ar_publisher) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.423259] (-) TimerEvent: {}
+[3.523750] (-) TimerEvent: {}
+[3.611984] (fake_ar_publisher) StdoutLine: {'line': b'[ 72%] Built target fake_ar_publisher__py\n'}
+[3.623969] (-) TimerEvent: {}
+[3.626931] (fake_ar_publisher) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_generator_py.dir/rosidl_generator_py/fake_ar_publisher/msg/_ar_marker_s.c.o\x1b[0m\n'}
+[3.725037] (-) TimerEvent: {}
+[3.736528] (fake_ar_publisher) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/libfake_ar_publisher__rosidl_generator_py.so\x1b[0m\n'}
+[3.772410] (fake_ar_publisher) StdoutLine: {'line': b'[ 78%] Built target fake_ar_publisher__rosidl_generator_py\n'}
+[3.788755] (fake_ar_publisher) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.788958] (fake_ar_publisher) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.789036] (fake_ar_publisher) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/fake_ar_publisher__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.825207] (-) TimerEvent: {}
+[3.865303] (fake_ar_publisher) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.865492] (fake_ar_publisher) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.869266] (fake_ar_publisher) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.900012] (fake_ar_publisher) StdoutLine: {'line': b'[ 96%] Built target fake_ar_publisher__rosidl_typesupport_c__pyext\n'}
+[3.900254] (fake_ar_publisher) StdoutLine: {'line': b'[ 96%] Built target fake_ar_publisher__rosidl_typesupport_introspection_c__pyext\n'}
+[3.904556] (fake_ar_publisher) StdoutLine: {'line': b'[ 96%] Built target fake_ar_publisher__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.925992] (-) TimerEvent: {}
+[4.027460] (-) TimerEvent: {}
+[4.128553] (-) TimerEvent: {}
+[4.233662] (-) TimerEvent: {}
+[4.334640] (-) TimerEvent: {}
+[4.438590] (-) TimerEvent: {}
+[4.539302] (-) TimerEvent: {}
+[4.640032] (-) TimerEvent: {}
+[4.741517] (-) TimerEvent: {}
+[4.844627] (-) TimerEvent: {}
+[4.946834] (-) TimerEvent: {}
+[5.051293] (-) TimerEvent: {}
+[5.158585] (-) TimerEvent: {}
+[5.262795] (-) TimerEvent: {}
+[5.363855] (-) TimerEvent: {}
+[5.464330] (-) TimerEvent: {}
+[5.567020] (-) TimerEvent: {}
+[5.668199] (-) TimerEvent: {}
+[5.769213] (-) TimerEvent: {}
+[5.870357] (-) TimerEvent: {}
+[5.970644] (-) TimerEvent: {}
+[6.071704] (-) TimerEvent: {}
+[6.172784] (-) TimerEvent: {}
+[6.273427] (-) TimerEvent: {}
+[6.376470] (-) TimerEvent: {}
+[6.480615] (-) TimerEvent: {}
+[6.581215] (-) TimerEvent: {}
+[6.681727] (-) TimerEvent: {}
+[6.786768] (-) TimerEvent: {}
+[6.888470] (-) TimerEvent: {}
+[6.994207] (-) TimerEvent: {}
+[7.094596] (-) TimerEvent: {}
+[7.195730] (-) TimerEvent: {}
+[7.297801] (-) TimerEvent: {}
+[7.398904] (-) TimerEvent: {}
+[7.500067] (-) TimerEvent: {}
+[7.601346] (-) TimerEvent: {}
+[7.702156] (-) TimerEvent: {}
+[7.708894] (fake_ar_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fake_ar_publisher_node\x1b[0m\n'}
+[7.803015] (-) TimerEvent: {}
+[7.903704] (-) TimerEvent: {}
+[7.933942] (fake_ar_publisher) StdoutLine: {'line': b'[100%] Built target fake_ar_publisher_node\n'}
+[7.944300] (fake_ar_publisher) CommandEnded: {'returncode': 0}
+[7.990465] (fake_ar_publisher) JobProgress: {'identifier': 'fake_ar_publisher', 'progress': 'install'}
+[7.996980] (fake_ar_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/riley/ros2_ws/build/fake_ar_publisher'], 'cwd': '/home/riley/ros2_ws/build/fake_ar_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riley'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/riley'), ('OLDPWD', '/home/riley'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'riley'), ('_', '/home/riley/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'riley'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/riley/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2workspace:@/tmp/.ICE-unix/1785,unix/ROS2workspace:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64c64ad0_6fd6_4373_85ac_ba1dab182899'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UFOTD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riley/ros2_ws/build/fake_ar_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.003878] (fake_ar_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.004166] (-) TimerEvent: {}
+[8.004283] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/ament_index/resource_index/rosidl_interfaces/fake_ar_publisher\n'}
+[8.004440] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher\n'}
+[8.004534] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg\n'}
+[8.004625] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail\n'}
+[8.004680] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__type_support.h\n'}
+[8.004800] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__functions.c\n'}
+[8.004857] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__functions.h\n'}
+[8.004965] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__struct.h\n'}
+[8.005017] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.005058] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/ar_marker.h\n'}
+[8.005168] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/library_path.sh\n'}
+[8.005317] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/library_path.dsv\n'}
+[8.005462] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_c.so\n'}
+[8.005829] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_c.so" to ""\n'}
+[8.005981] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher\n'}
+[8.006059] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg\n'}
+[8.006116] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.006213] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail\n'}
+[8.006258] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_fastrtps_c.h\n'}
+[8.006298] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_c.so\n'}
+[8.006397] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.006462] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher\n'}
+[8.006543] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg\n'}
+[8.006596] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail\n'}
+[8.006644] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__struct.hpp\n'}
+[8.006754] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__builder.hpp\n'}
+[8.006813] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__traits.hpp\n'}
+[8.006904] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/ar_marker.hpp\n'}
+[8.007013] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher\n'}
+[8.007093] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg\n'}
+[8.007154] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail\n'}
+[8.007233] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.007319] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/dds_fastrtps\n'}
+[8.007363] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.007403] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.007480] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.007564] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher\n'}
+[8.007618] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg\n'}
+[8.007702] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.007773] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail\n'}
+[8.007820] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__type_support.c\n'}
+[8.007869] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_introspection_c.h\n'}
+[8.007953] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_c.so\n'}
+[8.008060] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.008152] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_c.so\n'}
+[8.008285] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_c.so" to ""\n'}
+[8.008380] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher\n'}
+[8.008454] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg\n'}
+[8.008523] (fake_ar_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail\n'}
+[8.008566] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__type_support.cpp\n'}
+[8.008606] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/include/fake_ar_publisher/fake_ar_publisher/msg/detail/ar_marker__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.008717] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_cpp.so\n'}
+[8.008871] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.008972] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_cpp.so\n'}
+[8.009122] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_typesupport_cpp.so" to ""\n'}
+[8.009205] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/pythonpath.sh\n'}
+[8.009277] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/pythonpath.dsv\n'}
+[8.009342] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info\n'}
+[8.009442] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.009604] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.009752] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.009837] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.009909] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher\n'}
+[8.009982] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.010065] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.010141] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/libfake_ar_publisher__rosidl_generator_py.so\n'}
+[8.010230] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.010332] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/__init__.py\n'}
+[8.010423] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/_fake_ar_publisher_s.ep.rosidl_typesupport_c.c\n'}
+[8.010518] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.010572] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.010649] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg\n'}
+[8.010742] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/_ar_marker.py\n'}
+[8.010839] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/_ar_marker_s.c\n'}
+[8.010916] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/__init__.py\n'}
+[8.035109] (fake_ar_publisher) StdoutLine: {'line': b"Listing '/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher'...\n"}
+[8.035248] (fake_ar_publisher) StdoutLine: {'line': b"Compiling '/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/__init__.py'...\n"}
+[8.035289] (fake_ar_publisher) StdoutLine: {'line': b"Listing '/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg'...\n"}
+[8.035327] (fake_ar_publisher) StdoutLine: {'line': b"Compiling '/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/__init__.py'...\n"}
+[8.035363] (fake_ar_publisher) StdoutLine: {'line': b"Compiling '/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/msg/_ar_marker.py'...\n"}
+[8.038239] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.038480] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.038705] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.038852] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.039052] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.039258] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages/fake_ar_publisher/fake_ar_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.039326] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_py.so\n'}
+[8.039518] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/lib/libfake_ar_publisher__rosidl_generator_py.so" to ""\n'}
+[8.039694] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/msg/ARMarker.idl\n'}
+[8.039767] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/msg/ARMarker.msg\n'}
+[8.039858] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/lib/fake_ar_publisher/fake_ar_publisher_node\n'}
+[8.040959] (fake_ar_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/fake_ar_publisher/lib/fake_ar_publisher/fake_ar_publisher_node" to ""\n'}
+[8.041034] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/ament_index/resource_index/package_run_dependencies/fake_ar_publisher\n'}
+[8.041141] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/ament_index/resource_index/parent_prefix_path/fake_ar_publisher\n'}
+[8.041242] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/ament_prefix_path.sh\n'}
+[8.041420] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/ament_prefix_path.dsv\n'}
+[8.041523] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/path.sh\n'}
+[8.041720] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/environment/path.dsv\n'}
+[8.041792] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.bash\n'}
+[8.041886] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.sh\n'}
+[8.041936] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.zsh\n'}
+[8.042029] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/local_setup.dsv\n'}
+[8.042206] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.dsv\n'}
+[8.042267] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/ament_index/resource_index/packages/fake_ar_publisher\n'}
+[8.042355] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_cExport.cmake\n'}
+[8.042471] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.042644] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.042752] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.042865] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_cppExport.cmake\n'}
+[8.042973] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.043024] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.043155] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.043275] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.043372] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cExport.cmake\n'}
+[8.043426] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.043604] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.043687] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.043783] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cppExport.cmake\n'}
+[8.043839] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisher__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.043914] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_pyExport.cmake\n'}
+[8.044056] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/export_fake_ar_publisher__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.044140] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/rosidl_cmake-extras.cmake\n'}
+[8.044226] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.044322] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.044478] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.044646] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.044731] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.044823] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.044943] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisherConfig.cmake\n'}
+[8.044994] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake/fake_ar_publisherConfig-version.cmake\n'}
+[8.045153] (fake_ar_publisher) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/package.xml\n'}
+[8.047442] (fake_ar_publisher) CommandEnded: {'returncode': 0}
+[8.104838] (-) TimerEvent: {}
+[8.201007] (fake_ar_publisher) JobEnded: {'identifier': 'fake_ar_publisher', 'rc': 0}
+[8.201814] (myworkcell_core) JobStarted: {'identifier': 'myworkcell_core'}
+[8.206444] (-) TimerEvent: {}
+[8.237511] (myworkcell_core) JobProgress: {'identifier': 'myworkcell_core', 'progress': 'cmake'}
+[8.240006] (myworkcell_core) JobProgress: {'identifier': 'myworkcell_core', 'progress': 'build'}
+[8.240058] (myworkcell_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/riley/ros2_ws/build/myworkcell_core', '--', '-j8', '-l8'], 'cwd': '/home/riley/ros2_ws/build/myworkcell_core', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riley'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/riley/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/riley'), ('OLDPWD', '/home/riley'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'riley'), ('_', '/home/riley/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'riley'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/riley/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2workspace:@/tmp/.ICE-unix/1785,unix/ROS2workspace:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64c64ad0_6fd6_4373_85ac_ba1dab182899'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UFOTD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/riley/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riley/ros2_ws/build/myworkcell_core'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/riley/ros2_ws/install/fake_ar_publisher:/opt/ros/humble')]), 'shell': False}
+[8.264432] (myworkcell_core) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.307358] (-) TimerEvent: {}
+[8.364187] (myworkcell_core) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.385227] (myworkcell_core) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.386842] (myworkcell_core) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.390598] (myworkcell_core) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.399241] (myworkcell_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.408941] (-) TimerEvent: {}
+[8.409114] (myworkcell_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.445175] (myworkcell_core) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.446137] (myworkcell_core) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.509155] (-) TimerEvent: {}
+[8.533667] (myworkcell_core) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.611856] (-) TimerEvent: {}
+[8.632270] (myworkcell_core) StdoutLine: {'line': b'-- Found fake_ar_publisher: 0.0.0 (/home/riley/ros2_ws/install/fake_ar_publisher/share/fake_ar_publisher/cmake)\n'}
+[8.715347] (-) TimerEvent: {}
+[8.822716] (-) TimerEvent: {}
+[8.864401] (myworkcell_core) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.922896] (-) TimerEvent: {}
+[8.926177] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.926306] (myworkcell_core) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.926353] (myworkcell_core) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.926868] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.927823] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.927923] (myworkcell_core) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.928395] (myworkcell_core) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.929700] (myworkcell_core) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.939925] (myworkcell_core) StdoutLine: {'line': b'-- Generating done\n'}
+[8.941381] (myworkcell_core) StdoutLine: {'line': b'-- Build files have been written to: /home/riley/ros2_ws/build/myworkcell_core\n'}
+[8.968703] (myworkcell_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_node\x1b[0m\n'}
+[8.984001] (myworkcell_core) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o\x1b[0m\n'}
+[9.024441] (-) TimerEvent: {}
+[9.128672] (-) TimerEvent: {}
+[9.229387] (-) TimerEvent: {}
+[9.329809] (-) TimerEvent: {}
+[9.431009] (-) TimerEvent: {}
+[9.532441] (-) TimerEvent: {}
+[9.634760] (-) TimerEvent: {}
+[9.737581] (-) TimerEvent: {}
+[9.841619] (-) TimerEvent: {}
+[9.942818] (-) TimerEvent: {}
+[10.047113] (-) TimerEvent: {}
+[10.150111] (-) TimerEvent: {}
+[10.250399] (-) TimerEvent: {}
+[10.353556] (-) TimerEvent: {}
+[10.456189] (-) TimerEvent: {}
+[10.559904] (-) TimerEvent: {}
+[10.660376] (-) TimerEvent: {}
+[10.762326] (-) TimerEvent: {}
+[10.862634] (-) TimerEvent: {}
+[10.963754] (-) TimerEvent: {}
+[10.967789] (myworkcell_core) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vision_node\x1b[0m\n'}
+[11.064878] (-) TimerEvent: {}
+[11.068172] (myworkcell_core) StdoutLine: {'line': b'[100%] Built target vision_node\n'}
+[11.075795] (myworkcell_core) CommandEnded: {'returncode': 0}
+[11.095158] (myworkcell_core) JobProgress: {'identifier': 'myworkcell_core', 'progress': 'install'}
+[11.095974] (myworkcell_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/riley/ros2_ws/build/myworkcell_core'], 'cwd': '/home/riley/ros2_ws/build/myworkcell_core', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'riley'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/riley/ros2_ws/install/fake_ar_publisher/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/riley'), ('OLDPWD', '/home/riley'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'riley'), ('_', '/home/riley/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'riley'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/riley/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2workspace:@/tmp/.ICE-unix/1785,unix/ROS2workspace:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64c64ad0_6fd6_4373_85ac_ba1dab182899'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UFOTD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/riley/ros2_ws/install/fake_ar_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/riley/ros2_ws/build/myworkcell_core'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/riley/ros2_ws/install/fake_ar_publisher/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/riley/ros2_ws/install/fake_ar_publisher:/opt/ros/humble')]), 'shell': False}
+[11.103028] (myworkcell_core) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.104603] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/myworkcell_core/lib/myworkcell_core/vision_node\n'}
+[11.105032] (myworkcell_core) StdoutLine: {'line': b'-- Set runtime path of "/home/riley/ros2_ws/install/myworkcell_core/lib/myworkcell_core/vision_node" to ""\n'}
+[11.105396] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/package_run_dependencies/myworkcell_core\n'}
+[11.105905] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/parent_prefix_path/myworkcell_core\n'}
+[11.106720] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.sh\n'}
+[11.106805] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.dsv\n'}
+[11.106995] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.sh\n'}
+[11.107062] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.dsv\n'}
+[11.107114] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.bash\n'}
+[11.107164] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.sh\n'}
+[11.107245] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.zsh\n'}
+[11.107298] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.dsv\n'}
+[11.107337] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.dsv\n'}
+[11.107625] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/packages/myworkcell_core\n'}
+[11.108017] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig.cmake\n'}
+[11.108090] (myworkcell_core) StdoutLine: {'line': b'-- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig-version.cmake\n'}
+[11.108132] (myworkcell_core) StdoutLine: {'line': b'-- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.xml\n'}
+[11.110552] (myworkcell_core) CommandEnded: {'returncode': 0}
+[11.167077] (-) TimerEvent: {}
+[11.204180] (myworkcell_core) JobEnded: {'identifier': 'myworkcell_core', 'rc': 0}
+[11.204826] (-) EventReactorShutdown: {}

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fake_ar_publisher/msg/ARMarker.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseWithCovariance.idl"
+#include "std_msgs/msg/Header.idl"
+
+module fake_ar_publisher {
+  module msg {
+    struct ARMarker {
+      std_msgs::msg::Header header;
+
+      uint32 id;
+
+      geometry_msgs::msg::PoseWithCovariance pose;
+
+      uint32 confidence;
+    };
+  };
+};

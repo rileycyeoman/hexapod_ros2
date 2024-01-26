@@ -1,0 +1,22 @@
+[0.138s] Invoking command in '/home/riley/ros2_ws/build/myworkcell_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/install/six_leg_controller:/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/myworkcell_core -- -j8 -l8
+[0.206s] [100%] Built target vision_node
+[0.425s] Invoked command in '/home/riley/ros2_ws/build/myworkcell_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/install/six_leg_controller:/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/myworkcell_core -- -j8 -l8
+[0.461s] Invoking command in '/home/riley/ros2_ws/build/myworkcell_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/install/six_leg_controller:/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/myworkcell_core
+[0.466s] -- Install configuration: ""
+[0.466s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/lib/myworkcell_core/vision_node
+[0.466s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/package_run_dependencies/myworkcell_core
+[0.467s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/parent_prefix_path/myworkcell_core
+[0.467s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.sh
+[0.467s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/ament_prefix_path.dsv
+[0.469s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.sh
+[0.469s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/environment/path.dsv
+[0.469s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.bash
+[0.469s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.sh
+[0.470s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.zsh
+[0.470s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/local_setup.dsv
+[0.470s] -- Installing: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.dsv
+[0.470s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/ament_index/resource_index/packages/myworkcell_core
+[0.470s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig.cmake
+[0.471s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/cmake/myworkcell_coreConfig-version.cmake
+[0.471s] -- Up-to-date: /home/riley/ros2_ws/install/myworkcell_core/share/myworkcell_core/package.xml
+[0.559s] Invoked command in '/home/riley/ros2_ws/build/myworkcell_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/riley/ros2_ws/src/install/six_leg_controller:/home/riley/ros2_ws/install/six_leg_controller:/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/myworkcell_core

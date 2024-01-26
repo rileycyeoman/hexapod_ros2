@@ -1,0 +1,10 @@
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/uninstall.dir
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/myworkcell_core_uninstall.dir
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/vision_node.dir
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/test.dir
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/edit_cache.dir
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/rebuild_cache.dir
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/list_install_components.dir
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/install.dir
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/install/local.dir
+/home/riley/ros2_ws/build/myworkcell_core/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+Invoking command in '/home/riley/ros2_ws/build/myworkcell_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/myworkcell_core -- -j8 -l8
+Invoked command in '/home/riley/ros2_ws/build/myworkcell_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/riley/ros2_ws/build/myworkcell_core -- -j8 -l8
+Invoking command in '/home/riley/ros2_ws/build/myworkcell_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/myworkcell_core
+Invoked command in '/home/riley/ros2_ws/build/myworkcell_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/riley/ros2_ws/build/myworkcell_core

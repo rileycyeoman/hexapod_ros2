@@ -1,0 +1,115 @@
+[0.882s] DEBUG:colcon:Command line arguments: ['/home/riley/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/riley/ros2_ws']
+[0.882s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/riley/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f163ab6d150>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f163ab6f0a0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f163ab6f0a0>>)
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.926s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/riley/ros2_ws'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extension 'ignore_ament_install'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extensions ['colcon_pkg']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extension 'colcon_pkg'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extensions ['colcon_meta']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extension 'colcon_meta'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extensions ['ros']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extension 'ros'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extensions ['cmake', 'python']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extension 'cmake'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extension 'python'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extensions ['python_setup_py']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws) by extension 'python_setup_py'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/build) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/build) ignored
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/install) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/install) ignored
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/log) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/log) ignored
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extension 'ignore'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extension 'ignore_ament_install'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extensions ['colcon_pkg']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extension 'colcon_pkg'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extension 'colcon_meta'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extension 'ros'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extensions ['cmake', 'python']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extension 'cmake'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extension 'python'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extensions ['python_setup_py']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src) by extension 'python_setup_py'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/build) by extension 'ignore'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/build) ignored
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_pubsub) by extension 'ignore'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_pubsub) by extension 'colcon_pkg'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_pubsub) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_pubsub) by extension 'colcon_meta'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_pubsub) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_pubsub) by extension 'ros'
+[0.940s] DEBUG:colcon.colcon_core.package_identification:Package '/home/riley/ros2_ws/src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_srvcli) by extension 'ignore'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_srvcli) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_srvcli) by extensions ['colcon_meta']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_srvcli) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_srvcli) by extensions ['ros']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/cpp_srvcli) by extension 'ros'
+[0.942s] DEBUG:colcon.colcon_core.package_identification:Package '/home/riley/ros2_ws/src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/install) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/install) ignored
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/log) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/log) ignored
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/my_package) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/my_package) by extension 'ignore_ament_install'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/my_package) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/my_package) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/my_package) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/my_package) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/my_package) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/my_package) by extension 'ros'
+[0.943s] DEBUG:colcon.colcon_core.package_identification:Package '/home/riley/ros2_ws/src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/myworkcell_core) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/myworkcell_core) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/myworkcell_core) by extension 'ignore_ament_install'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/myworkcell_core) by extensions ['colcon_pkg']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/myworkcell_core) by extension 'colcon_pkg'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/myworkcell_core) by extensions ['colcon_meta']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/myworkcell_core) by extension 'colcon_meta'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/myworkcell_core) by extensions ['ros']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/myworkcell_core) by extension 'ros'
+[0.944s] DEBUG:colcon.colcon_core.package_identification:Package '/home/riley/ros2_ws/src/myworkcell_core' with type 'ros.ament_cmake' and name 'myworkcell_core'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/six_leg_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/six_leg_controller) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/six_leg_controller) by extension 'ignore_ament_install'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/six_leg_controller) by extensions ['colcon_pkg']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/six_leg_controller) by extension 'colcon_pkg'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/six_leg_controller) by extensions ['colcon_meta']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/six_leg_controller) by extension 'colcon_meta'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/six_leg_controller) by extensions ['ros']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/six_leg_controller) by extension 'ros'
+[0.945s] DEBUG:colcon.colcon_core.package_identification:Package '/home/riley/ros2_ws/src/six_leg_controller' with type 'ros.ament_python' and name 'six_leg_controller'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/tutorial_interfaces) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/tutorial_interfaces) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/tutorial_interfaces) by extensions ['ros']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/riley/ros2_ws/src/tutorial_interfaces) by extension 'ros'
+[0.945s] DEBUG:colcon.colcon_core.package_identification:Package '/home/riley/ros2_ws/src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
